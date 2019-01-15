@@ -13,6 +13,55 @@ h3, p {
 }
 /* ------------------------------------ HEADER */
 
+.header-div {
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.tabs-div {
+    display: inline-block;
+}
+
+.header-sections-left {
+    margin-left: 154px;
+    padding-top: 28px;
+    padding-right: 70px;
+    float: left;
+
+}
+
+.header-sections-right {
+    padding-top: 28px;
+    float: right;
+}
+
+.header-item {
+    display: inline-block;
+    font-weight: normal;
+    font-size: 13px;
+    height: 15px;
+    margin-top: 8px;
+    padding: 0 16px;
+    height: 32px;
+    text-align: center;
+    color: #777;
+}
+
+.header-item:hover {
+    color: #222;
+    cursor: pointer;
+}
+
+#active {
+    font-weight: bold;
+    color: #1A73E8;
+    border-bottom: 3px solid #1A73E8;
+    cursor: pointer;
+}
+
+#active:hover {
+
+}
+
 /* ------------------------------------ MAIN SECTION */
 
 .total-results {
